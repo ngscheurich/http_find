@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ngscheurich/http_search.svg?branch=master)](https://travis-ci.org/ngscheurich/http_search)
 
-A thin wrapper around `curl` and `grep` that searches the contents of an HTTP response for a specified pattern.
+Searches the contents of an HTTP response for a specified term or pattern.
 
 ## Installation
 
