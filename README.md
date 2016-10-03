@@ -1,6 +1,8 @@
 # HTTP Search
 
-A thin wrapper around `curl` and `grep` that searches the contents of an HTTP response for a particular pattern.
+[![Build Status](https://travis-ci.org/ngscheurich/http_search.svg?branch=master)](https://travis-ci.org/ngscheurich/http_search)
+
+A thin wrapper around `curl` and `grep` that searches the contents of an HTTP response for a specified pattern.
 
 ## Installation
 
@@ -20,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Once `http_search` is in your PATH you can execute the following commands:
+
+- `http_search [URL] [TERM]` will search `URL` for the specified `TERM`
 
 ## Development
 
