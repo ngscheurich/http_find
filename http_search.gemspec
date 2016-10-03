@@ -1,7 +1,7 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'http_search/version'
+require "http_search/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "http_search"
@@ -10,9 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["nick@scheurich.me"]
 
   spec.summary       = "HTTP response searcher"
-  spec.description   = <<-DESC
-  A thin wrapper around curl and grep that searches the contents of an HTTP response for a specified pattern.
-  DESC
+  spec.description   = "Searches the contents of an HTTP response for a specified term or pattern."
   spec.homepage      = "https://github.com/ngscheurich/http_search"
   spec.license       = "MIT"
 
@@ -22,6 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "httparty", "~> 0.13"
+  spec.add_runtime_dependency "colorize", "~> 0.8"
   spec.add_runtime_dependency "thor", "~> 0.19"
 
   spec.add_development_dependency "bundler", "~> 1.12"
