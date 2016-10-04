@@ -1,7 +1,7 @@
 require "httparty"
 require "colorize"
 
-module HttpSearch
+module HttpFind
   class Matcher
     MATCH_COLOR = :yellow
 

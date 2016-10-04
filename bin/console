@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "http_search"
+require "http_find"
 
 require "pry"
 Pry.start

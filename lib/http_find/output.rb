@@ -1,4 +1,4 @@
-module HttpSearch
+module HttpFind
   class Output
     def initialize(matches)
       @matches = matches

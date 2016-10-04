@@ -1,6 +1,6 @@
 require "httparty"
 
-module HttpSearch
+module HttpFind
   class Response
     attr_reader :code
     attr_reader :body

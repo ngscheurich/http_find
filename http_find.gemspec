@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "http_search/version"
+require "http_find/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "http_search"
-  spec.version       = HttpSearch::VERSION
+  spec.name          = "http_find"
+  spec.version       = HttpFind::VERSION
   spec.authors       = ["Nicholas Scheurich"]
   spec.email         = ["nick@scheurich.me"]
 
   spec.summary       = "HTTP response searcher"
   spec.description   = "Searches the contents of an HTTP response for a specified term or pattern."
-  spec.homepage      = "https://github.com/ngscheurich/http_search"
+  spec.homepage      = "https://github.com/ngscheurich/http_find"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

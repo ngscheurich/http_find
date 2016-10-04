@@ -4,7 +4,7 @@ if ENV.fetch("CI", false)
 end
 
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "http_search"
+require "http_find"
 
 require "minitest/autorun"
 require "minitest/reporters"

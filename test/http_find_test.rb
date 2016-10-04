@@ -1,8 +1,8 @@
 require "test_helper"
 
-class HttpSearchTest < Minitest::Test
+class HttpFindTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::HttpSearch::VERSION
+    refute_nil ::HttpFind::VERSION
   end
 
   def test_that_it_finds_in_source
@@ -13,7 +13,7 @@ class HttpSearchTest < Minitest::Test
       "1 | H\e[0;33;49mello\e[0m",
       "2 | Y\e[0;33;49mello\e[0mw"
     ]
-    result = HttpSearch.find("http://www.example.org", "ello")
+    result = HttpFind.find("http://www.example.org", "ello")
 
     assert_equal expected, result
   end

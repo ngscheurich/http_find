@@ -1,10 +1,10 @@
 require "test_helper"
 
-class HttpSearch::MatcherTest < Minitest::Test
+class HttpFind::MatcherTest < Minitest::Test
   def test_that_it_matches_a_string
     text = "Test\nHello Yellow"
 
-    matcher = HttpSearch::Matcher.new(text)
+    matcher = HttpFind::Matcher.new(text)
     str = "ello"
 
     match = {
@@ -17,7 +17,7 @@ class HttpSearch::MatcherTest < Minitest::Test
   def test_that_it_matches_a_regexp
     text = "The 1st one, the 2nd one, and the 3rd thing"
 
-    matcher = HttpSearch::Matcher.new(text)
+    matcher = HttpFind::Matcher.new(text)
     regexp = /\d.{2} one/
 
     match = {

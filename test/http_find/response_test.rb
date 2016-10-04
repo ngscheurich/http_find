@@ -1,8 +1,8 @@
 require "test_helper"
 
-class HttpSearch::ResponseTest < Minitest::Test
+class HttpFind::ResponseTest < Minitest::Test
   def test_that_it_sets_status_code
-    response = HttpSearch::Response.new("http://www.example.com")
+    response = HttpFind::Response.new("http://www.example.com")
 
     assert_equal 200, response.code
   end
@@ -11,7 +11,7 @@ class HttpSearch::ResponseTest < Minitest::Test
     stub_request(:get, "www.example.org").
       to_return(status: 200, body: "This is a test.")
 
-    response = HttpSearch::Response.new("http://www.example.org")
+    response = HttpFind::Response.new("http://www.example.org")
 
     assert_equal "This is a test.", response.body
   end
