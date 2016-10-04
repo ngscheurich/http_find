@@ -31,9 +31,11 @@ With `httpfind` in your $PATH, usage looks like:
 $ httpfind [URI] [TERM]
 ```
 
-Searches `URL` for the specified `TERM`. `TERM` may be either a simple string or
-a regular expression in the form `$ httpfind -e http://example.com '\d.{2} one'`
-(note the `-e` flag).
+This will search the HTTP GET response from `URI` for the specified `TERM`.
+
+`TERM` may be either a simple string or a regular expression in the form
+`$ httpfind -e http://example.com '\d.{2} one'` (note the `-e` flag).
+Check `$httpfind help` for more info.
 
 ## Development
 
