@@ -25,7 +25,7 @@ Installing this gem will add the executable `httpfind` to your system.
 
 ## Usage
 
-With `httpfind` is in your PATH you can execute the following commands:
+With `httpfind` in your $PATH, usage looks like:
 
 ```
 $ httpfind [URI] [TERM]
