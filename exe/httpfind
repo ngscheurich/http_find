@@ -6,4 +6,11 @@ source_path = (Pathname(__dir__) + "../lib").expand_path
 $LOAD_PATH << source_path
 
 require "http_find"
-HttpFind::Cli.start(ARGV)
+
+if ARGV.empty?
+  puts "Usage: httpfind [options] URI TERM"
+  puts "See httpfind --help for more info"
+else
+  cli = HttpFind::Cli.new
+  cli.find(ARGV[0], ARGV[1])
+end
