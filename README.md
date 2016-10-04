@@ -10,7 +10,7 @@ Searches the contents of an HTTP response for a specified term or pattern.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'http_search'
+gem 'http_find'
 ```
 
 And then execute:
@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install http_search
+    $ gem install http_find
 
 Installing this gem will add the executable `httpfind` to your system.
 
