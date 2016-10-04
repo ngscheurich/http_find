@@ -10,7 +10,7 @@ Searches the contents of an HTTP response for a specified term or pattern.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'http_search'
+gem 'http_find'
 ```
 
 And then execute:
@@ -19,21 +19,23 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install http_search
+    $ gem install http_find
 
 Installing this gem will add the executable `httpfind` to your system.
 
 ## Usage
 
-With `httpfind` is in your PATH you can execute the following commands:
+With `httpfind` in your $PATH, usage looks like:
 
 ```
 $ httpfind [URI] [TERM]
 ```
 
-Searches `URL` for the specified `TERM`. `TERM` may be either a simple string or
-a regular expression in the form `$ httpfind -e http://example.com '\d.{2} one'`
-(note the `-e` flag).
+This will search the HTTP GET response from `URI` for the specified `TERM`.
+
+`TERM` may be either a simple string or a regular expression in the form
+`$ httpfind -e http://example.com '\d.{2} one'` (note the `-e` flag).
+Check `$httpfind help` for more info.
 
 ## Development
 
