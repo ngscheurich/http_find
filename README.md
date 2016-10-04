@@ -12,7 +12,7 @@ Searches the contents of an HTTP response for a specified term or pattern.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'http_find'
+gem "http_find"
 ```
 
 And then execute:
