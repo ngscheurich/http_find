@@ -5,6 +5,8 @@
 
 Searches the contents of an HTTP response for a specified term or pattern.
 
+[![asciicast](https://asciinema.org/a/0kglco19bheo0wky86l0jmoul.png)](https://asciinema.org/a/0kglco19bheo0wky86l0jmoul?size=medium&autoplay=true&loop=true)
+
 ## Installation
 
 Add this line to your application's Gemfile:
