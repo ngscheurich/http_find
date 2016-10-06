@@ -1,6 +1,6 @@
 # HTTP Find 
 
-[![Build Status](https://travis-ci.org/ngscheurich/http_search.svg?branch=master)](https://travis-ci.org/ngscheurich/http_search)
+[![Build Status](https://travis-ci.org/ngscheurich/http_find.svg?branch=master)](https://travis-ci.org/ngscheurich/http_find)
 [![Coverage Status](https://coveralls.io/repos/github/ngscheurich/http_search/badge.svg?branch=master)](https://coveralls.io/github/ngscheurich/http_search?branch=master)
 
 Searches the contents of an HTTP response for a specified term or pattern.
